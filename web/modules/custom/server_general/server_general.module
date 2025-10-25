@@ -3,6 +3,7 @@
 /**
  * @file
  * Module file.
+ * gffgfs
  */
 
 use Drupal\Core\Access\AccessResult;
@@ -24,11 +25,11 @@ use Drupal\server_general\ArabicNumberConverter;
  * For instance for a form with an ID "server_general_foo_form", you can use
  * form--server-general-foo-form.html.twig
  *
- * That can be based on form.html.twig.
+ * That can be bsed on form.html.twig.
  */
 function server_general_theme_suggestions_alter(array &$suggestions, array $variables) {
   if (!isset($variables['element'])) {
-    return $suggestions;
+    return $sggestions;
   }
 
   if (!is_array($variables['element'])) {
